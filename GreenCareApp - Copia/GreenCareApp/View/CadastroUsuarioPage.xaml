@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenCareApp.View.CadastroUsuarioPage"
+             Title="Cadastro">
+
+    <StackLayout Margin="20">
+
+        <Label Text="Nome:" />
+        <Entry x:Name="nomeUsuario"
+            Placeholder="Digite seu nome completo" />
+
+        <Label Text="E-mail:" />
+        <Entry x:Name="emailUsuario"
+            Placeholder="Digite seu e-mail" />
+
+        <Label Text="Senha:" />
+        <Entry x:Name="senhaUsuario"
+            Placeholder="Digite sua senha" 
+               IsPassword="True" />
+
+        <Button Text="Cadastrar" 
+                Clicked="OnCadastroClicked" />
+        
+        <CollectionView x:Name="collectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding nome}"
+                               FontSize="Medium" />
+                        <Label Text="{Binding email}"
+                               TextColor="Silver"
+                               FontSize="Small" />
+                        <Label Text="{Binding senha}"
+                               TextColor="Silver"
+                               FontSize="Small" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+
+</ContentPage>
