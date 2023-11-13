@@ -1,0 +1,12 @@
+Criados:
+Planta.cs
+Pessoa.cs
+DataBase.cs
+
+Alterado:
+CadastroUsuarioPage.xaml.cs
+CadastroUsuarioPage.xaml
+LoginPage.xaml.cs
+
+Adicionado:
+sqlite-net-pcl (pacote Nuget)
