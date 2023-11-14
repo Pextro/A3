@@ -1,1 +1,0 @@
-D:\teste\GreenCareApp\GreenCareApp\GreenCareApp\GreenCareApp.csproj;x64

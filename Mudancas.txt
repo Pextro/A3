@@ -10,3 +10,6 @@ LoginPage.xaml.cs
 
 Adicionado:
 sqlite-net-pcl (pacote Nuget)
+
+14/11/2023:
+Implementado login
