@@ -2,17 +2,60 @@
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GreenCareApp.View.MenuPage"
-             Title="MenuPage">
+             Title="MenuPage"
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+             android:TabbedPage.ToolbarPlacement="Bottom">
     <ContentPage
         Title="Início"
-        BackgroundColor="Green"
-        IconImageSource="home.png"/>
+        BackgroundColor="White"
+        IconImageSource="home.png">
+
+
+
+        <StackLayout Spacing="10" Margin="0,20,0,0">
+            <Image Source="meujardim.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250"/>
+            <Button Text="Cadastrar planta"
+                    BackgroundColor="Green"
+                    TextColor="Black"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+            <Button Text="Meus itens"
+                    BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+            <Button Text="Meu jardim"
+                    BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+            <Button Text="Dicas"
+                    BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+        </StackLayout>
+    </ContentPage>
+
     <ContentPage
-        Title="Calendário "
+        Title="Calendário"
         BackgroundColor="Green"
-        IconImageSource="calendario.png"/>
+        IconImageSource="calendario">
+
+        <StackLayout Spacing="10">
+            <Label Text="Conteúdo do Calendário ou anotações" />
+            <Button Text="Menu 1" ImageSource="menu1.png"/>
+            <Button Text="Menu 2"/>
+        </StackLayout>
+    </ContentPage>
+
     <ContentPage
         Title="Perfil"
         BackgroundColor="Green"
-        IconImageSource="home"/>
+        IconImageSource="perfil">
+
+        <StackLayout Spacing="10">
+
+            <Label Text="Página do Perfil" />
+            <Button Text="Menu 1"/>
+            <Button Text="Menu 2"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GreenCareApp
-build_property.ProjectDir = E:\área de trabalho\'-'\Programming\Learning C#\A3 Pextro parte 2\A3\GreenCareApp - Copia\GreenCareApp\
+build_property.ProjectDir = C:\Users\Eldo Lima\Documents\Nova pasta\A3-main\GreenCareApp2\GreenCareApp\
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/App.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/AppShell.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/MainPage.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/Resources/Styles/Colors.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/Resources/Styles/Styles.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/View/CadastroUsuarioPage.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/View/CadastroUsuarioPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.View.CadastroUsuarioPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\CadastroUsuarioPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CadastroUsuarioPage.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/View/LoginPage.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/View/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.View.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
 
-[E:/área de trabalho/'-'/Programming/Learning C\#/A3 Pextro parte 2/A3/GreenCareApp - Copia/GreenCareApp/View/MenuPage.xaml]
+[C:/Users/Eldo Lima/Documents/Nova pasta/A3-main/GreenCareApp2/GreenCareApp/View/MenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenCareApp.View.MenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MenuPage.xaml

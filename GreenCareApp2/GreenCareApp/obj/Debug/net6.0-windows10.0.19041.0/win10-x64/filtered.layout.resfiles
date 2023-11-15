@@ -46,7 +46,9 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+cadastrarplanta.scale-100.png
 calendario.scale-100.png
+dicas.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -58,7 +60,14 @@ home.scale-125.png
 home.scale-150.png
 home.scale-200.png
 home.scale-400.png
+meujardim.scale-100.png
+meusitens.scale-100.png
 perfil.scale-100.png
+plantar.scale-100.png
+plantar.scale-125.png
+plantar.scale-150.png
+plantar.scale-200.png
+plantar.scale-400.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

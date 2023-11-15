@@ -14,7 +14,7 @@ namespace GreenCareApp
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.85")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.109")]
 	public partial class Resource
 	{
 		

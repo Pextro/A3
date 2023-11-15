@@ -1,1 +1,1 @@
-E:\área de trabalho\'-'\Programming\Learning C#\A3 Pextro parte 2\A3\GreenCareApp - Copia\GreenCareApp\GreenCareApp.csproj;x64
+C:\Users\Eldo Lima\Documents\Nova pasta\A3-main\GreenCareApp2\GreenCareApp\GreenCareApp.csproj;x64

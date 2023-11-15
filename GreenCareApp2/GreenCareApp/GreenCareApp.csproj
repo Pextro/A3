@@ -49,10 +49,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cadastrarplanta.png" />
 	  <None Remove="Resources\Images\calendario.png" />
+	  <None Remove="Resources\Images\dicas.png" />
 	  <None Remove="Resources\Images\greencare.png" />
 	  <None Remove="Resources\Images\home.svg" />
+	  <None Remove="Resources\Images\meujardim.png" />
+	  <None Remove="Resources\Images\meusitens.png" />
 	  <None Remove="Resources\Images\perfil.png" />
+	  <None Remove="Resources\Images\plantar.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
