@@ -9,7 +9,7 @@
 	.section	.data, "aw", @progbits
 	.p2align	3
 .L.compressed_assembly_descriptors.0:
-	.word	0x65600	// uncompressed_file_size
+	.word	0x67c00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.0	// data
@@ -104,87 +104,87 @@
 	.zero	3
 	.xword	.L.compressed_assembly_data.18	// data
 
-	.word	0xb600	// uncompressed_file_size
+	.word	0xc600	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.19	// data
 
-	.word	0x1400	// uncompressed_file_size
+	.word	0x1600	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.20	// data
 
-	.word	0x1600	// uncompressed_file_size
+	.word	0x8c00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.21	// data
 
-	.word	0x8c00	// uncompressed_file_size
+	.word	0x3a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.22	// data
 
-	.word	0x3a00	// uncompressed_file_size
+	.word	0x2800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.23	// data
 
-	.word	0x2800	// uncompressed_file_size
+	.word	0x3400	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.24	// data
 
-	.word	0x3400	// uncompressed_file_size
+	.word	0x1000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.25	// data
 
-	.word	0x1000	// uncompressed_file_size
+	.word	0x2800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.26	// data
 
-	.word	0x2800	// uncompressed_file_size
+	.word	0x7800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.27	// data
 
-	.word	0x7800	// uncompressed_file_size
+	.word	0x5ac00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.28	// data
 
-	.word	0x5ac00	// uncompressed_file_size
+	.word	0x8200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.29	// data
 
-	.word	0x8200	// uncompressed_file_size
+	.word	0x1c800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.30	// data
 
-	.word	0x1c800	// uncompressed_file_size
+	.word	0x8600	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.31	// data
 
-	.word	0x8600	// uncompressed_file_size
+	.word	0x1800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.32	// data
 
-	.word	0x1800	// uncompressed_file_size
+	.word	0x5800	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.33	// data
 
-	.word	0x5800	// uncompressed_file_size
+	.word	0x5ba00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.34	// data
 
-	.word	0x5ba00	// uncompressed_file_size
+	.word	0x1a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.35	// data
@@ -409,192 +409,192 @@
 	.zero	3
 	.xword	.L.compressed_assembly_data.79	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x4c00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.80	// data
 
-	.word	0x4c00	// uncompressed_file_size
+	.word	0x2400	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.81	// data
 
-	.word	0x2400	// uncompressed_file_size
+	.word	0x1a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.82	// data
 
-	.word	0x1a00	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.83	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x139a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.84	// data
 
-	.word	0x139c00	// uncompressed_file_size
+	.word	0x10600	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.85	// data
 
-	.word	0x10600	// uncompressed_file_size
+	.word	0xa00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.86	// data
 
-	.word	0xa00	// uncompressed_file_size
+	.word	0x1e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.87	// data
 
-	.word	0x1e00	// uncompressed_file_size
+	.word	0x2e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.88	// data
 
-	.word	0x2e00	// uncompressed_file_size
+	.word	0x22e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.89	// data
 
-	.word	0x22e00	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.90	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x2e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.91	// data
 
-	.word	0x2e00	// uncompressed_file_size
+	.word	0x1000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.92	// data
 
-	.word	0x1000	// uncompressed_file_size
+	.word	0x2200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.93	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x4c00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.94	// data
 
-	.word	0x2200	// uncompressed_file_size
+	.word	0x2400	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.95	// data
 
-	.word	0x4c00	// uncompressed_file_size
+	.word	0x1a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.96	// data
 
-	.word	0x2400	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.97	// data
 
-	.word	0x1a00	// uncompressed_file_size
+	.word	0x139a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.98	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x10600	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.99	// data
 
-	.word	0x139a00	// uncompressed_file_size
+	.word	0xa00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.100	// data
 
-	.word	0x10600	// uncompressed_file_size
+	.word	0x1e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.101	// data
 
-	.word	0xa00	// uncompressed_file_size
+	.word	0x2e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.102	// data
 
-	.word	0x1e00	// uncompressed_file_size
+	.word	0x22e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.103	// data
 
-	.word	0x2e00	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.104	// data
 
-	.word	0x22e00	// uncompressed_file_size
+	.word	0x2e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.105	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x1000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.106	// data
 
-	.word	0x2e00	// uncompressed_file_size
+	.word	0x4c00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.107	// data
 
-	.word	0x1000	// uncompressed_file_size
+	.word	0x2400	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.108	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0x1a00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.109	// data
 
-	.word	0x4c00	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.110	// data
 
-	.word	0x2400	// uncompressed_file_size
+	.word	0x140000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.111	// data
 
-	.word	0x1a00	// uncompressed_file_size
+	.word	0x10200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.112	// data
 
-	.word	0x1200	// uncompressed_file_size
+	.word	0xa00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.113	// data
 
-	.word	0x140000	// uncompressed_file_size
+	.word	0x1e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.114	// data
 
-	.word	0x10200	// uncompressed_file_size
+	.word	0x2e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.115	// data
 
-	.word	0xa00	// uncompressed_file_size
+	.word	0x22e00	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.116	// data
 
-	.word	0x1e00	// uncompressed_file_size
+	.word	0x1200	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.117	// data
@@ -604,32 +604,12 @@
 	.zero	3
 	.xword	.L.compressed_assembly_data.118	// data
 
-	.word	0x22e00	// uncompressed_file_size
+	.word	0x1000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.119	// data
 
-	.word	0x1200	// uncompressed_file_size
-	.byte	0x0	// loaded
-	.zero	3
-	.xword	.L.compressed_assembly_data.120	// data
-
-	.word	0x2e00	// uncompressed_file_size
-	.byte	0x0	// loaded
-	.zero	3
-	.xword	.L.compressed_assembly_data.121	// data
-
-	.word	0x1000	// uncompressed_file_size
-	.byte	0x0	// loaded
-	.zero	3
-	.xword	.L.compressed_assembly_data.122	// data
-
-	.word	0x1200	// uncompressed_file_size
-	.byte	0x0	// loaded
-	.zero	3
-	.xword	.L.compressed_assembly_data.123	// data
-
-	.size	.L.compressed_assembly_descriptors.0, 1984
+	.size	.L.compressed_assembly_descriptors.0, 1920
 
 	.section	.data, "aw", @progbits
 
@@ -642,7 +622,7 @@
 	.section	.data, "aw", @progbits
 	.p2align	3
 compressed_assemblies:
-	.word	0x7c	// count
+	.word	0x78	// count
 	.zero	4
 	.xword	.L.compressed_assembly_descriptors.0	// descriptors
 	.size	compressed_assemblies, 16

@@ -9,7 +9,6 @@ obj\Release\net6.0-android\android-x64\aot\Microsoft.Extensions.Primitives.dll.s
 obj\Release\net6.0-android\android-x64\aot\Microsoft.Maui.Graphics.dll.so
 obj\Release\net6.0-android\android-x64\aot\SQLite-net.dll.so
 obj\Release\net6.0-android\android-x64\aot\SQLitePCLRaw.batteries_v2.dll.so
-obj\Release\net6.0-android\android-x64\aot\SQLitePCLRaw.nativelibrary.dll.so
 obj\Release\net6.0-android\android-x64\aot\SQLitePCLRaw.core.dll.so
 obj\Release\net6.0-android\android-x64\aot\SQLitePCLRaw.lib.e_sqlite3.android.dll.so
 obj\Release\net6.0-android\android-x64\aot\SQLitePCLRaw.provider.e_sqlite3.dll.so
@@ -60,6 +59,7 @@ obj\Release\net6.0-android\android-x64\aot\System.ObjectModel.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Private.Uri.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Private.Xml.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Runtime.CompilerServices.Unsafe.dll.so
+obj\Release\net6.0-android\android-x64\aot\System.Runtime.InteropServices.RuntimeInformation.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Runtime.InteropServices.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Runtime.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Security.Cryptography.Algorithms.dll.so
@@ -69,7 +69,6 @@ obj\Release\net6.0-android\android-x64\aot\System.Threading.Thread.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Threading.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.Xml.ReaderWriter.dll.so
 obj\Release\net6.0-android\android-x64\aot\System.dll.so
-obj\Release\net6.0-android\android-x64\aot\mscorlib.dll.so
 obj\Release\net6.0-android\android-x64\aot\netstandard.dll.so
 obj\Release\net6.0-android\android-x64\aot\Java.Interop.dll.so
 obj\Release\net6.0-android\android-x64\aot\Mono.Android.dll.so

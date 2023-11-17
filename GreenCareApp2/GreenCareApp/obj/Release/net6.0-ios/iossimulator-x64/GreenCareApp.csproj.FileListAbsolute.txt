@@ -12,9 +12,8 @@ C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microso
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLite-net.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
-C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
-C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.provider.sqlite3.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll

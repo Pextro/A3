@@ -126,7 +126,7 @@
         </StackLayout>
     </ContentPage>
 
-    <!--<ContentPage
+    <ContentPage
         Title="Calendário"
         BackgroundColor="Green"
         IconImageSource="calendario">
@@ -136,9 +136,9 @@
             <Button Text="Menu 1" ImageSource="menu1.png"/>
             <Button Text="Menu 2"/>
         </StackLayout>
-    </ContentPage>-->
+    </ContentPage>
 
-    <!--<ContentPage
+    <ContentPage
         Title="Perfil"
         BackgroundColor="Green"
         IconImageSource="perfil">
@@ -149,5 +149,5 @@
             <Button Text="Menu 1"/>
             <Button Text="Menu 2"/>
         </StackLayout>
-    </ContentPage>-->
+    </ContentPage>
 </TabbedPage>
