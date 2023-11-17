@@ -1,5 +1,6 @@
 //using CloudKit;
 using Microsoft.Maui.Controls;
+using GreenCareApp.entities;
 
 namespace GreenCareApp.View;
 

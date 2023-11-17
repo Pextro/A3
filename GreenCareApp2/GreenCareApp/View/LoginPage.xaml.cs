@@ -1,3 +1,5 @@
+using GreenCareApp.entities;
+
 namespace GreenCareApp.View;
 
 
@@ -15,7 +17,7 @@ public partial class LoginPage : ContentPage
             if (!string.IsNullOrWhiteSpace(emailUsuario.Text) && !string.IsNullOrWhiteSpace(senhaUsuario.Text)) {
                 foreach (Pessoa pessoa in listaDePessoas) {
                     if (pessoa.email.Equals(emailUsuario.Text, StringComparison.OrdinalIgnoreCase) && pessoa.senha.Equals(senhaUsuario.Text)) {
-                        await Navigation.PushAsync(new MenuPage());
+                        await Navigation.PushAsync(new MenuPage(pessoa.Id));
                         return;
                     }
 

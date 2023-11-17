@@ -15,18 +15,110 @@
         <StackLayout Spacing="10" Margin="0,20,0,0">
             <Image Source="meujardim.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250"/>
             <Button Text="Cadastrar planta"
+                    Clicked="cadastrarPlanta"
                     BackgroundColor="Green"
-                    TextColor="Black"
                     BorderColor="Black"
                     BorderWidth="1"/>
+            <Label
+                x:Name="labelNomePlanta"
+                Text="Nome: "
+                IsVisible="false"/>
+            <Entry
+                x:Name="nomePlanta"
+                Placeholder="Digite o nome da sua planta"
+                IsVisible="false"/>
+            <Label
+                x:Name="labelEspecie"
+                Text="Espécie: "
+                IsVisible="false"/>
+            <Entry
+                x:Name="especiePlanta"
+                Placeholder="Digite a espécie da planta"
+                IsVisible="false"/>
+            <Label
+                x:Name="labelLocalizacao"
+                Text="Localização: "
+                IsVisible="false"/>
+            <Entry
+                x:Name="localizacaoPlanta"
+                Placeholder="Digite aonde sua planta está"
+                IsVisible="false"/>
+            <Button
+                x:Name="botaoSalvarPlanta"
+                Text="Salvar"
+                TextColor="White"
+                Clicked="btnSalvarPlanta"
+                BackgroundColor="Green"
+                Margin="10"
+                IsVisible="false"/>
+            <Button Text="Cadastrar item"
+                    Clicked="cadastrarItem"
+                    BackgroundColor="Green"
+                    BorderColor="Black"
+                    BorderWidth="1"/>
+            <Label
+                x:Name="labelNomeItem"
+                Text="Nome: "
+                IsVisible="false"/>
+            <Entry
+                x:Name="nomeItem"
+                Placeholder="Digite o nome do seu item"
+                IsVisible="false"/>
+            <Label
+                x:Name="labelQuantidade"
+                Text="Quantidade: "
+                IsVisible="false"/>
+            <Entry
+                x:Name="quantidadeItem"
+                Placeholder="Digite a quantidade do seu item"
+                IsVisible="false"/>
+            <Button
+                x:Name="botaoSalvarItem"
+                Text="Salvar"
+                TextColor="White"
+                Clicked="btnSalvarItem"
+                BackgroundColor="Green"
+                Margin="10"
+                IsVisible="false"/>
             <Button Text="Meus itens"
+                    Clicked="mostrarItens"
                     BackgroundColor="Green"
                     BorderColor="Black"
                     BorderWidth="1"/>
+            <CollectionView x:Name="collectionViewItem" IsVisible="false">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding nome}"
+                    FontSize="Medium" />
+                            <Label Text="{Binding quantidade}"
+                    TextColor="Silver"
+                    FontSize="Small" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
             <Button Text="Meu jardim"
+                    Clicked="mostrarJardim"
                     BackgroundColor="Green"
                     BorderColor="Black"
                     BorderWidth="1"/>
+            <CollectionView x:Name="collectionViewPlanta" IsVisible="false">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding nome}"
+                    FontSize="Medium" />
+                            <Label Text="{Binding especie}"
+                    TextColor="Silver"
+                    FontSize="Small" />
+                            <Label Text="{Binding localizacao}"
+                    TextColor="Silver"
+                    FontSize="Small" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
             <Button Text="Dicas"
                     BackgroundColor="Green"
                     BorderColor="Black"
@@ -34,7 +126,7 @@
         </StackLayout>
     </ContentPage>
 
-    <ContentPage
+    <!--<ContentPage
         Title="Calendário"
         BackgroundColor="Green"
         IconImageSource="calendario">
@@ -44,9 +136,9 @@
             <Button Text="Menu 1" ImageSource="menu1.png"/>
             <Button Text="Menu 2"/>
         </StackLayout>
-    </ContentPage>
+    </ContentPage>-->
 
-    <ContentPage
+    <!--<ContentPage
         Title="Perfil"
         BackgroundColor="Green"
         IconImageSource="perfil">
@@ -57,5 +149,5 @@
             <Button Text="Menu 1"/>
             <Button Text="Menu 2"/>
         </StackLayout>
-    </ContentPage>
+    </ContentPage>-->
 </TabbedPage>

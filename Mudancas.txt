@@ -14,5 +14,11 @@ sqlite-net-pcl (pacote Nuget)
 14/11/2023:
 Implementado login
 
-15/11/2023
+15/11/2023:
 Alterações na MenuPage
+
+17/11/2023:
+Calendário e perfil comentados (quebra tudo)
+Adicionado classe Item
+Implementado cadastro de plantas e items (menupage)
+Criada pasta de entities
