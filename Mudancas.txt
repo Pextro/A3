@@ -26,3 +26,7 @@ Criada pasta de entities
 17/11/2023 parte 2:
 consertado crash de registrar-se
 consertado calendário e perfil
+
+22/11/2023:
+Implementado delete de plantas
+Obs: não é possível exportar pra apk, possível conflito com pacotes nuget

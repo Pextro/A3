@@ -108,13 +108,20 @@
                     <DataTemplate>
                         <StackLayout>
                             <Label Text="{Binding nome}"
-                    FontSize="Medium" />
+                                FontSize="Medium" />
                             <Label Text="{Binding especie}"
-                    TextColor="Silver"
-                    FontSize="Small" />
+                                TextColor="Silver"
+                                FontSize="Small" />
                             <Label Text="{Binding localizacao}"
-                    TextColor="Silver"
-                    FontSize="Small" />
+                                TextColor="Silver"
+                                FontSize="Small" />
+                            <Button Text="Excluir"
+                                Clicked="btnExcluiPlanta"
+                                CommandParameter="{Binding Source={x:Reference collectionViewPlanta}}"
+                                BackgroundColor="Green"
+                                BorderColor="Black"
+                                BorderWidth="1">
+                            </Button>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

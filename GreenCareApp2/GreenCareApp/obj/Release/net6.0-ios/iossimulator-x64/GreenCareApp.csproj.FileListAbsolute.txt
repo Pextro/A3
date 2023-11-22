@@ -280,3 +280,7 @@ C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-ios\iossimulator-x64\refint\
 C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-ios\iossimulator-x64\GreenCareApp.pdb
 C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-ios\iossimulator-x64\GreenCareApp.genruntimeconfig.cache
 C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-ios\iossimulator-x64\ref\GreenCareApp.dll
+C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\Microsoft.Data.Sqlite.dll
+C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.lib.e_sqlite3.ios.dll
+C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\SQLitePCLRaw.provider.internal.dll
+C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-ios\iossimulator-x64\System.Data.SQLite.dll
