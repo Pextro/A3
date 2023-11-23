@@ -52,108 +52,108 @@ map_aname.9:
 
 	.type	map_aname.10, @object
 map_aname.10:
-	.asciz	"GreenCareApp"
-	.size	map_aname.10, 13
+	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
+	.size	map_aname.10, 35
 
 	.type	map_aname.11, @object
 map_aname.11:
-	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
-	.size	map_aname.11, 35
+	.asciz	"Xamarin.AndroidX.Collection"
+	.size	map_aname.11, 28
 
 	.type	map_aname.12, @object
 map_aname.12:
-	.asciz	"Xamarin.AndroidX.Collection"
-	.size	map_aname.12, 28
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.12, 41
 
 	.type	map_aname.13, @object
 map_aname.13:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.13, 41
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	map_aname.13, 30
 
 	.type	map_aname.14, @object
 map_aname.14:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
-	.size	map_aname.14, 30
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	map_aname.14, 37
 
 	.type	map_aname.15, @object
 map_aname.15:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	map_aname.15, 37
+	.asciz	"Xamarin.AndroidX.Navigation.Common"
+	.size	map_aname.15, 35
 
 	.type	map_aname.16, @object
 map_aname.16:
-	.asciz	"Xamarin.AndroidX.Navigation.Common"
-	.size	map_aname.16, 35
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	map_aname.16, 26
 
 	.type	map_aname.17, @object
 map_aname.17:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	map_aname.17, 26
+	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
+	.size	map_aname.17, 34
 
 	.type	map_aname.18, @object
 map_aname.18:
-	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
-	.size	map_aname.18, 34
+	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
+	.size	map_aname.18, 46
 
 	.type	map_aname.19, @object
 map_aname.19:
-	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
-	.size	map_aname.19, 46
+	.asciz	"Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	map_aname.19, 36
 
 	.type	map_aname.20, @object
 map_aname.20:
-	.asciz	"Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	map_aname.20, 36
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	map_aname.20, 24
 
 	.type	map_aname.21, @object
 map_aname.21:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	map_aname.21, 24
+	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
+	.size	map_aname.21, 36
 
 	.type	map_aname.22, @object
 map_aname.22:
-	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
-	.size	map_aname.22, 36
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	map_aname.22, 27
 
 	.type	map_aname.23, @object
 map_aname.23:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	map_aname.23, 27
+	.asciz	"Xamarin.AndroidX.CardView"
+	.size	map_aname.23, 26
 
 	.type	map_aname.24, @object
 map_aname.24:
-	.asciz	"Xamarin.AndroidX.CardView"
+	.asciz	"Xamarin.AndroidX.Activity"
 	.size	map_aname.24, 26
 
 	.type	map_aname.25, @object
 map_aname.25:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	map_aname.25, 26
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModelSavedState"
+	.size	map_aname.25, 47
 
 	.type	map_aname.26, @object
 map_aname.26:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModelSavedState"
-	.size	map_aname.26, 47
+	.asciz	"Microsoft.Maui.Graphics"
+	.size	map_aname.26, 24
 
 	.type	map_aname.27, @object
 map_aname.27:
-	.asciz	"Microsoft.Maui.Graphics"
-	.size	map_aname.27, 24
+	.asciz	"Xamarin.AndroidX.CursorAdapter"
+	.size	map_aname.27, 31
 
 	.type	map_aname.28, @object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CursorAdapter"
-	.size	map_aname.28, 31
+	.asciz	"Xamarin.AndroidX.CustomView"
+	.size	map_aname.28, 28
 
 	.type	map_aname.29, @object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.CustomView"
+	.asciz	"Xamarin.AndroidX.SavedState"
 	.size	map_aname.29, 28
 
 	.type	map_aname.30, @object
 map_aname.30:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	map_aname.30, 28
+	.asciz	"GreenCareApp"
+	.size	map_aname.30, 13
 
 	.type	map_aname.31, @object
 map_aname.31:

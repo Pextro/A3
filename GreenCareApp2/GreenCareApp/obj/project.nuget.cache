@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/TH9Y/0JsKO9lys1xzfE0XHYWJTOM2afP/M2ym9JOvt0ebhq8GjN9DsTQ+EDCvCM3lAIJphzIz2JrzPGKEwMqw==",
+  "dgSpecHash": "mlFUfQrvm97IltJSJJrULVQHIlb2Ws+I1Rjt2g9aMcuHKokSf87jh7dIo1EjekoiC8BH5paeolW11cf1hWi3Bg==",
   "success": true,
   "projectFilePath": "C:\\A3\\GreenCareApp2\\GreenCareApp\\GreenCareApp.csproj",
   "expectedPackageFiles": [
@@ -27,9 +27,7 @@
     "C:\\Users\\6189067\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.1.6\\sqlitepclraw.lib.e_sqlite3.android.2.1.6.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.6\\sqlitepclraw.provider.sqlite3.2.1.6.nupkg.sha512",
-    "C:\\Users\\6189067\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
-    "C:\\Users\\6189067\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\6189067\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

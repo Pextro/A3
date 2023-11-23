@@ -107,21 +107,28 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Label Text="{Binding nome}"
-                                FontSize="Medium" />
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding nome}"
+                                    FontSize="Medium"
+                                    Grid.Column="0"/>
+                                <Button Text="Excluir"
+                                    Clicked="btnExcluiPlanta"
+                                    CommandParameter="{Binding Source={x:Reference collectionViewPlanta}}"
+                                    BackgroundColor="Green"
+                                    BorderColor="Black"
+                                    Grid.Column="1"/>
+                            </Grid>
                             <Label Text="{Binding especie}"
-                                TextColor="Silver"
-                                FontSize="Small" />
+                                    TextColor="Silver"
+                                    FontSize="Small"/>
                             <Label Text="{Binding localizacao}"
-                                TextColor="Silver"
-                                FontSize="Small" />
-                            <Button Text="Excluir"
-                                Clicked="btnExcluiPlanta"
-                                CommandParameter="{Binding Source={x:Reference collectionViewPlanta}}"
-                                BackgroundColor="Green"
-                                BorderColor="Black"
-                                BorderWidth="1">
-                            </Button>
+                                    TextColor="Silver"
+                                    FontSize="Small"
+                                   Padding="0, 0, 0, 10"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

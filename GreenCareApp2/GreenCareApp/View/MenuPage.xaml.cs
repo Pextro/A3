@@ -1,6 +1,5 @@
 using Microsoft.Maui.Controls;
 using GreenCareApp.entities;
-using System.Data.SQLite;
 using SQLite;
 
 namespace GreenCareApp.View;
@@ -81,13 +80,13 @@ public partial class MenuPage : TabbedPage
                 collectionView.SelectedItem = button.BindingContext;
                 if (collectionView.SelectedItem is Planta selectedItem) {
                     int idPlanta = selectedItem.Id;
-                    using (System.Data.SQLite.SQLiteConnection conexao = new System.Data.SQLite.SQLiteConnection("Data Source=" + Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "people.db3"))) {
-                        conexao.Open();
-                        string query = "DELETE FROM Planta WHERE Id = @Id";
-                        using (System.Data.SQLite.SQLiteCommand comando = new System.Data.SQLite.SQLiteCommand(query, conexao)) {
-                            comando.Parameters.AddWithValue("@Id", idPlanta);
-                            comando.ExecuteNonQuery();
-                        }
+                    using (SQLiteConnection conexao = new SQLiteConnection(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "people.db3"))) {
+                        conexao.Delete<Planta>(idPlanta);
+                        /*string query = "DELETE FROM Planta WHERE Id = @Id";
+                        SQLiteCommand comando = new SQLiteCommand(conexao);
+                        comando.CommandText = query;
+                        comando.CommandText
+                        comando.ExecuteNonQuery();*/
                     }
                     await Navigation.PushAsync(new MenuPage(id));
                 } else {

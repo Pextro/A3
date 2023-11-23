@@ -1,6 +1,6 @@
 	.type	.L.compressed_assembly_data.0, %object
 	.local	.L.compressed_assembly_data.0
-	.comm	.L.compressed_assembly_data.0, 424960, 16
+	.comm	.L.compressed_assembly_data.0, 427520, 16
 
 	.type	.L.compressed_assembly_data.1, %object
 	.local	.L.compressed_assembly_data.1

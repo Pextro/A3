@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-22T18:51:56.422</Modified>
+      <Modified>2023-11-23T17:17:17.513</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-22T18:40:34.771</Modified>
+      <Modified>2023-11-23T16:59:44.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.runtimeconfig.json">
       <PackagePath>GreenCareApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-22T16:49:35.237</Modified>
+      <Modified>2023-11-22T20:25:28.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.dll">
       <PackagePath>GreenCareApp.dll</PackagePath>
-      <Modified>2023-11-22T18:51:55.930</Modified>
+      <Modified>2023-11-23T17:17:17.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GreenCareApp.exe</PackagePath>
-      <Modified>2023-11-22T18:51:54.857</Modified>
+      <Modified>2023-11-23T17:17:15.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -965,10 +965,6 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.data.sqlite.core\8.0.0\lib\net6.0\Microsoft.Data.Sqlite.dll">
-      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
-      <Modified>2023-10-31T22:15:36.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-24T00:12:18.000</Modified>
@@ -1061,9 +1057,9 @@
       <PackagePath>SQLite-net.dll</PackagePath>
       <Modified>2021-09-02T21:04:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\sqlitepclraw.bundle_green\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2023-08-23T18:41:24.000</Modified>
+      <Modified>2023-08-23T18:41:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
@@ -1072,10 +1068,6 @@
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2023-08-23T18:38:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\stub.system.data.sqlite.core.netstandard\1.0.118\lib\netstandard2.1\System.Data.SQLite.dll">
-      <PackagePath>System.Data.SQLite.dll</PackagePath>
-      <Modified>2023-06-10T21:02:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -1089,13 +1081,9 @@
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2023-08-23T18:33:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\stub.system.data.sqlite.core.netstandard\1.0.118\runtimes\win-x64\native\SQLite.Interop.dll">
-      <PackagePath>SQLite.Interop.dll</PackagePath>
-      <Modified>2023-06-10T20:57:54.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.deps.json">
       <PackagePath>GreenCareApp.deps.json</PackagePath>
-      <Modified>2023-11-22T18:51:56.272</Modified>
+      <Modified>2023-11-23T17:17:17.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

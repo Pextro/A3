@@ -30,3 +30,8 @@ consertado calendário e perfil
 22/11/2023:
 Implementado delete de plantas
 Obs: não é possível exportar pra apk, possível conflito com pacotes nuget
+
+23/11/2023:
+Melhorado delete de plantas
+Mudança no Meu Jardim da MenuPage
+Erro de exportar para apk resolvido, pacote System.Data.SQLite.Core removido para tal
