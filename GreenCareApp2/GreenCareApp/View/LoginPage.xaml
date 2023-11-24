@@ -3,37 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="{DynamicResource PageBackgroundColor}"
              x:Class="GreenCareApp.View.LoginPage">
-
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Image
-            Source="greencare.png"
-            SemanticProperties.Description="Cute dot net bot waving hi to you!"
-            HeightRequest="200"
-            HorizontalOptions="Center" />
-        <Label
-            Text="E-mail: "/>
-        <Entry
-            x:Name="emailUsuario"
-            Placeholder="DIgite seu e-mail" Keyboard="Email" />
-        <Label
-            Text="Senha:"/>
-        <Entry
-            x:Name="senhaUsuario"
-            Placeholder="Digite sua senha" IsPassword="True" />
-        <Button
-            Text="Acessar"
-            TextColor="White"
-            Clicked="btnAcessar"
-            BackgroundColor="Green"
+    <ScrollView>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Image
+                Source="greencare.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Label
+                Text="E-mail: "/>
+            <Entry
+                x:Name="emailUsuario"
+                Placeholder="DIgite seu e-mail" Keyboard="Email" />
+            <Label
+                Text="Senha:"/>
+            <Entry
+                x:Name="senhaUsuario"
+                Placeholder="Digite sua senha" IsPassword="True" />
+            <Button
+                Text="Acessar"
+                TextColor="White"
+                Clicked="btnAcessar"
+                BackgroundColor="Green"
             
-            Margin="10"/>
-        <Button
-            Text="Registrar-se"
-            TextColor="White"
-            Clicked="btnCadastrarse"
-            BackgroundColor="Green"
-            Margin="10"/>
-            
-    </StackLayout>
+                Margin="10"/>
+            <Button
+                Text="Registrar-se"
+                TextColor="White"
+                Clicked="btnCadastrarse"
+                BackgroundColor="Green"
+                Margin="10"/>
 
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

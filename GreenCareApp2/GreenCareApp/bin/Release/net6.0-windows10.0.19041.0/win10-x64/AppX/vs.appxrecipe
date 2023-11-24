@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-23T17:17:17.513</Modified>
+      <Modified>2023-11-23T19:55:23.520</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-23T16:59:44.579</Modified>
+      <Modified>2023-11-23T19:55:22.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.runtimeconfig.json">
       <PackagePath>GreenCareApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.dll">
       <PackagePath>GreenCareApp.dll</PackagePath>
-      <Modified>2023-11-23T17:17:17.036</Modified>
+      <Modified>2023-11-23T19:55:22.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GreenCareApp.exe</PackagePath>
-      <Modified>2023-11-23T17:17:15.936</Modified>
+      <Modified>2023-11-23T19:55:21.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1083,7 +1083,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.deps.json">
       <PackagePath>GreenCareApp.deps.json</PackagePath>
-      <Modified>2023-11-23T17:17:17.365</Modified>
+      <Modified>2023-11-23T19:55:23.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

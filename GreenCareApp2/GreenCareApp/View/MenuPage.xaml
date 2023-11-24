@@ -11,133 +11,173 @@
         IconImageSource="home.png">
 
 
-
-        <StackLayout Spacing="10" Margin="0,20,0,0">
-            <Image Source="meujardim.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250"/>
-            <Button Text="Cadastrar planta"
-                    Clicked="cadastrarPlanta"
+        <ScrollView x:Name="scroll">
+            <StackLayout Spacing="10" Margin="0,20,0,0" x:Name="layout">
+                <Image Source="meujardim.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="250"/>
+                <Button Text="Cadastrar planta"
+                        Clicked="cadastrarPlanta"
+                        BackgroundColor="Green"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+                <Label
+                    x:Name="labelNomePlanta"
+                    Text="Nome: "
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Entry
+                    x:Name="nomePlanta"
+                    Placeholder="Digite o nome da sua planta"
+                    IsVisible="false"
+                    Margin="20, 0, 0, 0">
+                    <Entry.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="focusEntry"/>
+                    </Entry.GestureRecognizers>
+                </Entry>
+                <Label
+                    x:Name="labelEspecie"
+                    Text="Espécie: "
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Entry
+                    x:Name="especiePlanta"
+                    Placeholder="Digite a espécie da planta"
+                    IsVisible="false"
+                    Margin="20, 0, 0, 0">
+                    <Entry.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="focusEntry"/>
+                    </Entry.GestureRecognizers>
+                </Entry>
+                <Label
+                    x:Name="labelLocalizacao"
+                    Text="Localização: "
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Entry
+                    x:Name="localizacaoPlanta"
+                    Placeholder="Digite aonde sua planta está"
+                    IsVisible="false"
+                    Margin="20, 0, 0, 0">
+                    <Entry.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="focusEntry"/>
+                    </Entry.GestureRecognizers>
+                </Entry>
+                <Button
+                    x:Name="botaoSalvarPlanta"
+                    Text="Salvar"
+                    TextColor="White"
+                    Clicked="btnSalvarPlanta"
                     BackgroundColor="Green"
-                    BorderColor="Black"
-                    BorderWidth="1"/>
-            <Label
-                x:Name="labelNomePlanta"
-                Text="Nome: "
-                IsVisible="false"/>
-            <Entry
-                x:Name="nomePlanta"
-                Placeholder="Digite o nome da sua planta"
-                IsVisible="false"/>
-            <Label
-                x:Name="labelEspecie"
-                Text="Espécie: "
-                IsVisible="false"/>
-            <Entry
-                x:Name="especiePlanta"
-                Placeholder="Digite a espécie da planta"
-                IsVisible="false"/>
-            <Label
-                x:Name="labelLocalizacao"
-                Text="Localização: "
-                IsVisible="false"/>
-            <Entry
-                x:Name="localizacaoPlanta"
-                Placeholder="Digite aonde sua planta está"
-                IsVisible="false"/>
-            <Button
-                x:Name="botaoSalvarPlanta"
-                Text="Salvar"
-                TextColor="White"
-                Clicked="btnSalvarPlanta"
-                BackgroundColor="Green"
-                Margin="10"
-                IsVisible="false"/>
-            <Button Text="Cadastrar item"
-                    Clicked="cadastrarItem"
+                    Margin="10"
+                    IsVisible="false"/>
+                <Button Text="Cadastrar item"
+                        Clicked="cadastrarItem"
+                        BackgroundColor="Green"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+                <Label
+                    x:Name="labelNomeItem"
+                    Text="Nome: "
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Entry
+                    x:Name="nomeItem"
+                    Placeholder="Digite o nome do seu item"
+                    IsVisible="false"
+                    Margin="20, 0, 0, 0">
+                    <Entry.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="focusEntry"/>
+                    </Entry.GestureRecognizers>
+                </Entry>
+                <Label
+                    x:Name="labelQuantidade"
+                    Text="Quantidade: "
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Entry
+                    x:Name="quantidadeItem"
+                    Placeholder="Digite a quantidade do seu item"
+                    IsVisible="false"
+                    Margin="20, 0, 0, 0">
+                    <Entry.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="focusEntry"/>
+                    </Entry.GestureRecognizers>
+                </Entry>
+                <Button
+                    x:Name="botaoSalvarItem"
+                    Text="Salvar"
+                    TextColor="White"
+                    Clicked="btnSalvarItem"
                     BackgroundColor="Green"
-                    BorderColor="Black"
-                    BorderWidth="1"/>
-            <Label
-                x:Name="labelNomeItem"
-                Text="Nome: "
-                IsVisible="false"/>
-            <Entry
-                x:Name="nomeItem"
-                Placeholder="Digite o nome do seu item"
-                IsVisible="false"/>
-            <Label
-                x:Name="labelQuantidade"
-                Text="Quantidade: "
-                IsVisible="false"/>
-            <Entry
-                x:Name="quantidadeItem"
-                Placeholder="Digite a quantidade do seu item"
-                IsVisible="false"/>
-            <Button
-                x:Name="botaoSalvarItem"
-                Text="Salvar"
-                TextColor="White"
-                Clicked="btnSalvarItem"
-                BackgroundColor="Green"
-                Margin="10"
-                IsVisible="false"/>
-            <Button Text="Meus itens"
-                    Clicked="mostrarItens"
-                    BackgroundColor="Green"
-                    BorderColor="Black"
-                    BorderWidth="1"/>
-            <CollectionView x:Name="collectionViewItem" IsVisible="false">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding nome}"
-                    FontSize="Medium" />
-                            <Label Text="{Binding quantidade}"
-                    TextColor="Silver"
-                    FontSize="Small" />
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-            <Button Text="Meu jardim"
-                    Clicked="mostrarJardim"
-                    BackgroundColor="Green"
-                    BorderColor="Black"
-                    BorderWidth="1"/>
-            <CollectionView x:Name="collectionViewPlanta" IsVisible="false">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
+                    Margin="10"
+                    IsVisible="false"/>
+                <Button Text="Meus itens"
+                        Clicked="mostrarItens"
+                        BackgroundColor="Green"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+                <CollectionView x:Name="collectionViewItem" IsVisible="false">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
                                 <Label Text="{Binding nome}"
                                     FontSize="Medium"
-                                    Grid.Column="0"/>
-                                <Button Text="Excluir"
-                                    Clicked="btnExcluiPlanta"
-                                    CommandParameter="{Binding Source={x:Reference collectionViewPlanta}}"
-                                    BackgroundColor="Green"
-                                    BorderColor="Black"
-                                    Grid.Column="1"/>
-                            </Grid>
-                            <Label Text="{Binding especie}"
-                                    TextColor="Silver"
-                                    FontSize="Small"/>
-                            <Label Text="{Binding localizacao}"
+                                    Padding="20, 0, 0, 0"/>
+                                <Label Text="{Binding quantidade}"
                                     TextColor="Silver"
                                     FontSize="Small"
-                                   Padding="0, 0, 0, 10"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-            <Button Text="Dicas"
-                    BackgroundColor="Green"
-                    BorderColor="Black"
-                    BorderWidth="1"/>
-        </StackLayout>
+                                    Padding="20, 0, 0, 0"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Meu jardim"
+                        Clicked="mostrarJardim"
+                        BackgroundColor="Green"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+                <CollectionView x:Name="collectionViewPlanta" IsVisible="false">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding nome}"
+                                        FontSize="Medium"
+                                        Grid.Column="0"
+                                        Padding="20, 0, 0, 0"/>
+                                    <Button Text="Excluir"
+                                        Clicked="btnExcluiPlanta"
+                                        CommandParameter="{Binding Source={x:Reference collectionViewPlanta}}"
+                                        BackgroundColor="Green"
+                                        BorderColor="Black"
+                                        Grid.Column="1"/>
+                                </Grid>
+                                <Label Text="{Binding especie}"
+                                        TextColor="Silver"
+                                        FontSize="Small"
+                                        Padding="20, 0, 0, 0"/>
+                                <Label Text="{Binding localizacao}"
+                                        TextColor="Silver"
+                                        FontSize="Small"
+                                       Padding="20, 0, 0, 10"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Dicas"
+                        BackgroundColor="Green"
+                        BorderColor="Black"
+                        BorderWidth="1"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage>
 
     <ContentPage

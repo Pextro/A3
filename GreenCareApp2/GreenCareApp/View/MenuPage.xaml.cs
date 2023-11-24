@@ -110,6 +110,16 @@ public partial class MenuPage : TabbedPage
         }
     }
 
+    private async void focusEntry(object sender, EventArgs e) {
+        var listOfChildren = layout.Children.ToList();
+        foreach (var child in listOfChildren) {
+            if (child is Entry entry) {
+                var elemento = entry.BindingContext;
+                await scroll.ScrollToAsync(elemento, ScrollToPosition.MakeVisible, true);
+            }
+        }
+    }
+
     protected override async void OnAppearing() {
         base.OnAppearing();
         List<Planta> listaDePlantas = await CadastroUsuarioPage.Database.GetPlantsAsync();

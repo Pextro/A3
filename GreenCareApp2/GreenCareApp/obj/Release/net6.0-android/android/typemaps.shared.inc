@@ -132,28 +132,28 @@ map_aname.25:
 
 	.type	map_aname.26, @object
 map_aname.26:
-	.asciz	"Microsoft.Maui.Graphics"
-	.size	map_aname.26, 24
+	.asciz	"GreenCareApp"
+	.size	map_aname.26, 13
 
 	.type	map_aname.27, @object
 map_aname.27:
-	.asciz	"Xamarin.AndroidX.CursorAdapter"
-	.size	map_aname.27, 31
+	.asciz	"Microsoft.Maui.Graphics"
+	.size	map_aname.27, 24
 
 	.type	map_aname.28, @object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CustomView"
-	.size	map_aname.28, 28
+	.asciz	"Xamarin.AndroidX.CursorAdapter"
+	.size	map_aname.28, 31
 
 	.type	map_aname.29, @object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.SavedState"
+	.asciz	"Xamarin.AndroidX.CustomView"
 	.size	map_aname.29, 28
 
 	.type	map_aname.30, @object
 map_aname.30:
-	.asciz	"GreenCareApp"
-	.size	map_aname.30, 13
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	map_aname.30, 28
 
 	.type	map_aname.31, @object
 map_aname.31:

@@ -35,3 +35,6 @@ Obs: não é possível exportar pra apk, possível conflito com pacotes nuget
 Melhorado delete de plantas
 Mudança no Meu Jardim da MenuPage
 Erro de exportar para apk resolvido, pacote System.Data.SQLite.Core removido para tal
+
+24/11/2023 parte 1:
+iniciada implementação de auto scroll na MenuPage

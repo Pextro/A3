@@ -330,12 +330,23 @@ map_modules:
 	.zero	4
 	.quad	0x0	# java_map
 
-	.byte	0xd2, 0x28, 0x43, 0xb9, 0x2f, 0x16, 0xfa, 0x4f, 0xa8, 0x23, 0x9e, 0x10, 0xd9, 0xdc, 0x24, 0xf7	# module_uuid: b94328d2-162f-4ffa-a823-9e10d9dc24f7
-	.long	0x1	# entry_count
+	.byte	0xce, 0x87, 0xb8, 0xb6, 0x4d, 0x66, 0x5f, 0x47, 0xab, 0xc2, 0xdc, 0x3e, 0xca, 0x69, 0xa6, 0xf3	# module_uuid: b6b887ce-664d-475f-abc2-dc3eca69a6f3
+	.long	0x2	# entry_count
 	.long	0x0	# duplicate_count
 	.quad	.L.module26_managed_to_java	# map
 	.quad	0	# duplicate_map
-	.quad	map_aname.26	# assembly_name: Microsoft.Maui.Graphics
+	.quad	map_aname.26	# assembly_name: GreenCareApp
+	.quad	0x0	# image
+	.long	0x0	# java_name_width
+	.zero	4
+	.quad	0x0	# java_map
+
+	.byte	0xd2, 0x28, 0x43, 0xb9, 0x2f, 0x16, 0xfa, 0x4f, 0xa8, 0x23, 0x9e, 0x10, 0xd9, 0xdc, 0x24, 0xf7	# module_uuid: b94328d2-162f-4ffa-a823-9e10d9dc24f7
+	.long	0x1	# entry_count
+	.long	0x0	# duplicate_count
+	.quad	.L.module27_managed_to_java	# map
+	.quad	0	# duplicate_map
+	.quad	map_aname.27	# assembly_name: Microsoft.Maui.Graphics
 	.quad	0x0	# image
 	.long	0x0	# java_name_width
 	.zero	4
@@ -344,9 +355,9 @@ map_modules:
 	.byte	0xd2, 0x54, 0xde, 0x5, 0x40, 0xd, 0xf7, 0x43, 0x92, 0xd0, 0xd3, 0x87, 0x8e, 0x5d, 0xef, 0xb3	# module_uuid: 05de54d2-0d40-43f7-92d0-d3878e5defb3
 	.long	0x1	# entry_count
 	.long	0x1	# duplicate_count
-	.quad	.L.module27_managed_to_java	# map
-	.quad	.L.module27_managed_to_java_duplicates	# duplicate_map
-	.quad	map_aname.27	# assembly_name: Xamarin.AndroidX.CursorAdapter
+	.quad	.L.module28_managed_to_java	# map
+	.quad	.L.module28_managed_to_java_duplicates	# duplicate_map
+	.quad	map_aname.28	# assembly_name: Xamarin.AndroidX.CursorAdapter
 	.quad	0x0	# image
 	.long	0x0	# java_name_width
 	.zero	4
@@ -355,9 +366,9 @@ map_modules:
 	.byte	0xd3, 0xff, 0xde, 0x54, 0x8c, 0x81, 0x19, 0x41, 0xb7, 0x86, 0xac, 0xb3, 0x2e, 0x67, 0x30, 0x1c	# module_uuid: 54deffd3-818c-4119-b786-acb32e67301c
 	.long	0x1	# entry_count
 	.long	0x1	# duplicate_count
-	.quad	.L.module28_managed_to_java	# map
-	.quad	.L.module28_managed_to_java_duplicates	# duplicate_map
-	.quad	map_aname.28	# assembly_name: Xamarin.AndroidX.CustomView
+	.quad	.L.module29_managed_to_java	# map
+	.quad	.L.module29_managed_to_java_duplicates	# duplicate_map
+	.quad	map_aname.29	# assembly_name: Xamarin.AndroidX.CustomView
 	.quad	0x0	# image
 	.long	0x0	# java_name_width
 	.zero	4
@@ -366,20 +377,9 @@ map_modules:
 	.byte	0xd6, 0x94, 0x99, 0x6c, 0x1f, 0x2, 0xd6, 0x41, 0xb6, 0xb7, 0xbd, 0x1c, 0x3d, 0x25, 0x34, 0x30	# module_uuid: 6c9994d6-021f-41d6-b6b7-bd1c3d253430
 	.long	0x2	# entry_count
 	.long	0x1	# duplicate_count
-	.quad	.L.module29_managed_to_java	# map
-	.quad	.L.module29_managed_to_java_duplicates	# duplicate_map
-	.quad	map_aname.29	# assembly_name: Xamarin.AndroidX.SavedState
-	.quad	0x0	# image
-	.long	0x0	# java_name_width
-	.zero	4
-	.quad	0x0	# java_map
-
-	.byte	0xdb, 0xf7, 0xbe, 0xab, 0x37, 0x7a, 0xa7, 0x4a, 0x8a, 0x96, 0x31, 0xbc, 0x70, 0xbe, 0x9, 0x70	# module_uuid: abbef7db-7a37-4aa7-8a96-31bc70be0970
-	.long	0x2	# entry_count
-	.long	0x0	# duplicate_count
 	.quad	.L.module30_managed_to_java	# map
-	.quad	0	# duplicate_map
-	.quad	map_aname.30	# assembly_name: GreenCareApp
+	.quad	.L.module30_managed_to_java_duplicates	# duplicate_map
+	.quad	map_aname.30	# assembly_name: Xamarin.AndroidX.SavedState
 	.quad	0x0	# image
 	.long	0x0	# java_name_width
 	.zero	4
@@ -3038,13 +3038,13 @@ map_java:
 	.zero	68	# byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1b	# module_index
+	.long	0x1c	# module_index
 	.long	0x200000d	# type_token_id
 	.ascii	"androidx/cursoradapter/widget/CursorAdapter"	# java_name
 	.zero	60	# byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1c	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/customview/widget/Openable"	# java_name
 	.zero	68	# byteCount == 35; fixedWidth == 103; returned size == 103
@@ -3680,13 +3680,13 @@ map_java:
 	.zero	64	# byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1d	# module_index
+	.long	0x1e	# module_index
 	.long	0x2000003	# type_token_id
 	.ascii	"androidx/savedstate/SavedStateRegistry"	# java_name
 	.zero	65	# byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1d	# module_index
+	.long	0x1e	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/savedstate/SavedStateRegistry$SavedStateProvider"	# java_name
 	.zero	46	# byteCount == 57; fixedWidth == 103; returned size == 103
@@ -4400,19 +4400,19 @@ map_java:
 	.zero	38	# byteCount == 65; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1e	# module_index
+	.long	0x1a	# module_index
 	.long	0x200000c	# type_token_id
 	.ascii	"crc64371c0238404f9335/MainActivity"	# java_name
 	.zero	69	# byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1e	# module_index
+	.long	0x1a	# module_index
 	.long	0x200000d	# type_token_id
 	.ascii	"crc64371c0238404f9335/MainApplication"	# java_name
 	.zero	66	# byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.long	0x1a	# module_index
+	.long	0x1b	# module_index
 	.long	0x2000082	# type_token_id
 	.ascii	"crc643f2b18b2570eaa5a/PlatformGraphicsView"	# java_name
 	.zero	61	# byteCount == 42; fixedWidth == 103; returned size == 103
