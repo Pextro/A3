@@ -38,3 +38,8 @@ Erro de exportar para apk resolvido, pacote System.Data.SQLite.Core removido par
 
 24/11/2023 parte 1:
 iniciada implementação de auto scroll na MenuPage
+
+25/11/2023:
+finalização da implementação de scroll,
+adição de algumas exceções,
+melhoria de ui.

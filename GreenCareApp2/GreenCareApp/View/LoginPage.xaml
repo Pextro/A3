@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="{DynamicResource PageBackgroundColor}"
              x:Class="GreenCareApp.View.LoginPage">
-    <ScrollView>
+    <ScrollView x:Name="scroll">
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Image
                 Source="greencare.png"
@@ -11,13 +11,17 @@
                 HeightRequest="200"
                 HorizontalOptions="Center" />
             <Label
+                Padding="20, 0, 0, 0"
                 Text="E-mail: "/>
             <Entry
+                Margin="20, 0, 0, 0"
                 x:Name="emailUsuario"
                 Placeholder="DIgite seu e-mail" Keyboard="Email" />
             <Label
+                Padding="20, 0, 0, 0"
                 Text="Senha:"/>
             <Entry
+                Margin="20, 0, 0, 0"
                 x:Name="senhaUsuario"
                 Placeholder="Digite sua senha" IsPassword="True" />
             <Button
