@@ -1,1 +1,1 @@
-D:\A3\GreenCareApp2\GreenCareApp\GreenCareApp.csproj;x64
+C:\A3\GreenCareApp2\GreenCareApp\GreenCareApp.csproj;x64

@@ -65,20 +65,21 @@ public partial class MenuPage : TabbedPage
 
     private async void btnSalvarItem(object sender, EventArgs e)
     {
-        if (!string.IsNullOrWhiteSpace(nomeItem.Text) && !string.IsNullOrWhiteSpace(quantidadeItem.Text))
-        {
-            await DisplayAlert("Erro", "A quantidade inserida não é válida. Por favor, insira um valor numérico.", "OK");
-        
+        int quantidade;
+        if (!string.IsNullOrWhiteSpace(nomeItem.Text) && !string.IsNullOrWhiteSpace(quantidadeItem.Text) && int.TryParse(quantidadeItem.Text, out quantidade))
+        {        
             await CadastroUsuarioPage.Database.SaveItemAsync(new Item
             {
                 nome = nomeItem.Text,
-                quantidade = int.Parse(quantidadeItem.Text),
+                quantidade = quantidade,
                 idPessoa = id
 
             });
             
             nomeItem.Text = quantidadeItem.Text = string.Empty;
             await Navigation.PushAsync(new MenuPage(id));
+        } else {
+            await DisplayAlert("Erro", "Campos vazios ou inválidos", "OK");
         }
         
     }

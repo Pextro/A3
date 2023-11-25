@@ -47,6 +47,8 @@ public partial class CadastroUsuarioPage : ContentPage
 
             nomeUsuario.Text = emailUsuario.Text = senhaUsuario.Text = string.Empty;
             collectionView.ItemsSource = await CadastroUsuarioPage.Database.GetPessoaAsync();
+        } else {
+            await DisplayAlert("ERRO", "Preencha todos os campos!", "Okey");
         }
     }
     private async void focusEntry(object sender, EventArgs e)

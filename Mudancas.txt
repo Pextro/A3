@@ -43,3 +43,6 @@ iniciada implementação de auto scroll na MenuPage
 finalização da implementação de scroll,
 adição de algumas exceções,
 melhoria de ui.
+
+25/11/2023 parte 2:
+finalização da implementação de exceções
