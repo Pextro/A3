@@ -46,3 +46,6 @@ melhoria de ui.
 
 25/11/2023 parte 2:
 finalização da implementação de exceções
+
+29/11/2023:
+implementação de verificação de cadastro
