@@ -49,3 +49,6 @@ finalização da implementação de exceções
 
 29/11/2023:
 implementação de verificação de cadastro
+
+29/11/2023 parte 2:
+incluído PopAsync no cadastro

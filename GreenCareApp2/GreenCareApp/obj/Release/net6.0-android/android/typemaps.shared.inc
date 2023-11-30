@@ -57,43 +57,43 @@ map_aname.10:
 
 	.type	map_aname.11, @object
 map_aname.11:
-	.asciz	"Xamarin.AndroidX.Collection"
-	.size	map_aname.11, 28
+	.asciz	"GreenCareApp"
+	.size	map_aname.11, 13
 
 	.type	map_aname.12, @object
 map_aname.12:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.12, 41
+	.asciz	"Xamarin.AndroidX.Collection"
+	.size	map_aname.12, 28
 
 	.type	map_aname.13, @object
 map_aname.13:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
-	.size	map_aname.13, 30
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.13, 41
 
 	.type	map_aname.14, @object
 map_aname.14:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	map_aname.14, 37
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	map_aname.14, 30
 
 	.type	map_aname.15, @object
 map_aname.15:
-	.asciz	"Xamarin.AndroidX.Navigation.Common"
-	.size	map_aname.15, 35
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	map_aname.15, 37
 
 	.type	map_aname.16, @object
 map_aname.16:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	map_aname.16, 26
+	.asciz	"Xamarin.AndroidX.Navigation.Common"
+	.size	map_aname.16, 35
 
 	.type	map_aname.17, @object
 map_aname.17:
-	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
-	.size	map_aname.17, 34
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	map_aname.17, 26
 
 	.type	map_aname.18, @object
 map_aname.18:
-	.asciz	"GreenCareApp"
-	.size	map_aname.18, 13
+	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
+	.size	map_aname.18, 34
 
 	.type	map_aname.19, @object
 map_aname.19:

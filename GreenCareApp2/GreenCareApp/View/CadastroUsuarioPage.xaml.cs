@@ -61,6 +61,7 @@ public partial class CadastroUsuarioPage : ContentPage {
 
             if (cadastro > 0) {
                 await DisplayAlert("Sucesso", "Cadastro realizado com sucesso!", "Fechar");
+                await Navigation.PopAsync();
             }
 
             nomeUsuario.Text = emailUsuario.Text = senhaUsuario.Text = string.Empty;
