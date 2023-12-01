@@ -186,9 +186,35 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
                 <Button Text="Dicas"
+                        Clicked="mostrarDicas"
                         BackgroundColor="Green"
                         BorderColor="Black"
                         BorderWidth="1"/>
+                <Label
+                    x:Name="labelDica1"
+                    Text="Regue suas plantas com frequência. Anote a frequência de cada planta!"
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Label
+                    x:Name="labelDica2"
+                    Text="Algumas plantas não param de crescer, não esqueça de podar com frequência!"
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Label
+                    x:Name="labelDica3"
+                    Text="Coloque suas plantas num local com iluminação adequeada. Cada planta tem sua necessidade diferente de sol!"
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Label
+                    x:Name="labelDica4"
+                    Text="Plantas gostam de adubo para crescer saudáveis, considere!"
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
+                <Label
+                    x:Name="labelDica5"
+                    Text="Certifique-se de que seus pratinhos abaixo do pote contém areia para evitar água parada e o mosquito da dengue!"
+                    IsVisible="false"
+                    Padding="20, 0, 0, 0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>

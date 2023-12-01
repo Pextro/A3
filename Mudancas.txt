@@ -52,3 +52,6 @@ implementação de verificação de cadastro
 
 29/11/2023 parte 2:
 incluído PopAsync no cadastro
+
+01/12/2023:
+Adicionadas dicas

@@ -11,6 +11,7 @@ public partial class MenuPage : TabbedPage
     bool jardimVisivel = false;
     bool cadastroItemVisivel = false;
     bool itemVisivel = false;
+    bool dicaVisivel = false;
 
 
     public MenuPage(int id)
@@ -97,6 +98,7 @@ public partial class MenuPage : TabbedPage
             jardimVisivel = false;
         }
     }
+
     private async void btnExcluiItem(object sender, EventArgs e)
     {
         if (sender is Button button)
@@ -183,6 +185,16 @@ public partial class MenuPage : TabbedPage
         {
             collectionViewItem.IsVisible = false;
             itemVisivel = false;
+        }
+    }
+
+    private void mostrarDicas(object sender, EventArgs e) {
+        if (!dicaVisivel) {
+            labelDica1.IsVisible = labelDica2.IsVisible = labelDica3.IsVisible = labelDica4.IsVisible = labelDica5.IsVisible = true;
+            dicaVisivel = true;
+        } else {
+            labelDica1.IsVisible = labelDica2.IsVisible = labelDica3.IsVisible = labelDica4.IsVisible = labelDica5.IsVisible = false;
+            dicaVisivel = false;
         }
     }
 
