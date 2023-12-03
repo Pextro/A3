@@ -58,3 +58,4 @@ Adicionadas dicas
 
 03/12/2023:
 Comentada visualização de dados cadastrais, descomente no xaml e no cs para ver
+comentadas abas da menupage

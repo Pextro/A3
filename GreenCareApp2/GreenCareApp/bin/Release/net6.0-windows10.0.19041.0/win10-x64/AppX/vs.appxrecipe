@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-03T17:32:46.469</Modified>
+      <Modified>2023-12-03T18:36:18.777</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\bin\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.dll">
       <PackagePath>GreenCareApp.dll</PackagePath>
-      <Modified>2023-12-03T17:32:44.030</Modified>
+      <Modified>2023-12-03T18:36:17.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GreenCareApp.exe</PackagePath>
-      <Modified>2023-12-03T17:32:42.651</Modified>
+      <Modified>2023-12-03T18:36:16.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1083,7 +1083,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\A3\GreenCareApp2\GreenCareApp\obj\Release\net6.0-windows10.0.19041.0\win10-x64\GreenCareApp.deps.json">
       <PackagePath>GreenCareApp.deps.json</PackagePath>
-      <Modified>2023-12-03T17:32:46.231</Modified>
+      <Modified>2023-12-03T18:36:18.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\6189067\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

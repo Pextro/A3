@@ -219,7 +219,7 @@
         </ScrollView>
     </ContentPage>
 
-    <ContentPage
+    <!--<ContentPage
         Title="Calendário"
         BackgroundColor="Green"
         IconImageSource="calendario">
@@ -242,5 +242,5 @@
             <Button Text="Menu 1"/>
             <Button Text="Menu 2"/>
         </StackLayout>
-    </ContentPage>
+    </ContentPage>-->
 </TabbedPage>
