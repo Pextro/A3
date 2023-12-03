@@ -55,3 +55,6 @@ incluído PopAsync no cadastro
 
 01/12/2023:
 Adicionadas dicas
+
+03/12/2023:
+Comentada visualização de dados cadastrais, descomente no xaml e no cs para ver

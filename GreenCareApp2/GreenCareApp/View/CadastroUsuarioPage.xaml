@@ -21,8 +21,8 @@
 
             <Button Text="Cadastrar" 
                     Clicked="OnCadastroClicked" />
-
-            <CollectionView x:Name="collectionView">
+            <!--descomente aqui para ver dados de cadastro-->
+            <!--<CollectionView x:Name="collectionView">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
@@ -37,7 +37,7 @@
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
-            </CollectionView>
+            </CollectionView>-->
         </StackLayout>
     </ScrollView>
 </ContentPage>

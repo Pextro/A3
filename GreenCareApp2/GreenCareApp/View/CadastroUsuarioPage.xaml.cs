@@ -26,7 +26,8 @@ public partial class CadastroUsuarioPage : ContentPage {
 
     protected override async void OnAppearing() {
         base.OnAppearing();
-        collectionView.ItemsSource = await CadastroUsuarioPage.Database.GetPessoaAsync();
+        //descomente aqui para ver dados de cadastro
+        //collectionView.ItemsSource = await CadastroUsuarioPage.Database.GetPessoaAsync();
     }
 
     async void OnCadastroClicked(object sender, EventArgs e) {
@@ -65,7 +66,8 @@ public partial class CadastroUsuarioPage : ContentPage {
             }
 
             nomeUsuario.Text = emailUsuario.Text = senhaUsuario.Text = string.Empty;
-            collectionView.ItemsSource = await CadastroUsuarioPage.Database.GetPessoaAsync();
+            //descomente aqui para ver dados de cadastro
+            //collectionView.ItemsSource = await CadastroUsuarioPage.Database.GetPessoaAsync();
         } else {
             await DisplayAlert("Atenção!", "Preencha todas as informações", "Fechar");
             return;
