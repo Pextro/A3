@@ -47,6 +47,8 @@ public partial class MenuPage : TabbedPage
             });
             nomePlanta.Text = especiePlanta.Text = localizacaoPlanta.Text = string.Empty;
             await Navigation.PushAsync(new MenuPage(id));
+        } else {
+            await DisplayAlert("Erro", "Campos vazios ou inválidos", "OK");
         }
     }
 
