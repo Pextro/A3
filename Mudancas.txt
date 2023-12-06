@@ -12,7 +12,7 @@ Adicionado:
 sqlite-net-pcl (pacote Nuget)
 
 14/11/2023:
-Implementado login
+Implementação login
 
 15/11/2023:
 Alterações na MenuPage
